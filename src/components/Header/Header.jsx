@@ -10,11 +10,12 @@ const Header = () => {
                     <img src={home}></img>
                 </NavLink>
             </div>
+            
             <div className={styles.item}>
-                    <NavLink to='/contacts' className={styles.links}>Contacts</NavLink>
+                    <NavLink to='/contacts'>Contacts</NavLink>
             </div>
             <div className={styles.item}>
-                    <NavLink to='/about' className={styles.links}>About</NavLink>
+                    <NavLink to='/about'>About</NavLink>
             </div>
         </nav>
     );

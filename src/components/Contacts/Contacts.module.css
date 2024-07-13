@@ -1,0 +1,29 @@
+
+.link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+    right: 0px;
+    color: black;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link:hover {
+    color: white;
+    background-color: black;
+}
+
+.link_wrapper {
+    margin-top:     10px;
+}
+.all_links_wrapper {
+    position: absolute;
+    left: 45%;
+    top: 40%;
+}
